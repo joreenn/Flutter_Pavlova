@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'page1.dart';
+import 'Pavlova.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: false,
         primarySwatch: Colors.blue,
       ),
-      home: const Page1(),
+      home: const Pavlova(),
     );
   }
 }
